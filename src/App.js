@@ -118,7 +118,7 @@ async function login(){
       <div className="navbar">
         <button className="button" onClick={()=>login()}>Submit to chain</button>
         <input id="colorpicker" type="color" value={color} onChange={e => {currentSub.color = (e.target.value);setColor(e.target.value)}} className="color_ip"></input><a>&#11013;Choose color</a>
-        <div className="fr"><a  href="https://twitter.com/punevyr">@punevyr</a></div>
+        {/* <div className="fr"><a  href="https://twitter.com/punevyr">@punevyr</a></div> */}
       </div>
       <div id="container" className="container"> </div>
       
